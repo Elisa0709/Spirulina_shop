@@ -7,7 +7,7 @@ import path from 'path'; // Importer le module 'path'
 export default defineConfig({
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'), // Ajouter l'alias ici
+      '@': path.resolve(__dirname, 'src'),
     },
   },
   plugins: [

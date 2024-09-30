@@ -13,21 +13,21 @@ export default {
     </div>
     <div class="carousel-inner ">
       <div class="carousel-item active">
-        <img src="/carrousselSupplier1.png" class="d-block w-100" alt="...">
+        <img src="/carrousselSupplier1.webp" class="d-block w-100" alt="producteur de spiruline">
         <div class="carousel-caption d-none d-md-block ">
           <h5 class="h1 text-shadow-3">RESPECT DE L'ENVIRONNEMENT</h5>
           <p class="fs-5 text-shadow-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, asperiores dicta eius fugit illo maxime minima minus molestiae perferendis, quae, quidem ratione tempore tenetur unde voluptatem. Accusantium at doloribus quis.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/carrousselSupplier2.png" class="d-block w-100" alt="...">
+        <img src="/carrousselSupplier2.webp" class="d-block w-100" alt="poudre de spiruline">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="h1 text-shadow-3">PRODUITS DE QUALITÉ</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequatur dignissimos, eveniet excepturi explicabo facilis inventore laudantium maiores nisi nostrum obcaecati perferendis recusandae rem saepe soluta, tempora temporibus totam voluptatem.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/carrousselSupplier3.png" class="d-block w-100" alt="...">
+        <img src="/carrousselSupplier3.webp" class="d-block w-100" alt="producteur de spiruline">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="h1 text-shadow-3">COMMERCE EQUITABLE</h5>
           <p class="fs-5 text-shadow-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad alias consequuntur delectus dolor ea et facere, iusto labore nam numquam odit optio provident, quia quo rem unde! Dicta, error.</p>
