@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div id="carouselExampleCaptions" class="carousel slide mt-5 mb-5">
+  <div id="carouselExampleCaptions" class="carousel slide mt-5 pt-5 mb-5">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -13,7 +13,7 @@ export default {
     </div>
     <div class="carousel-inner ">
       <div class="carousel-item active">
-        <img src="/carrousselSupplier1.webp" class="d-block w-100" alt="producteur de spiruline">
+        <img src='/carrousselSupplier1.webp' class="d-block w-100" alt="producteur de spiruline">
         <div class="carousel-caption d-none d-md-block ">
           <h5 class="h1 text-shadow-3">RESPECT DE L'ENVIRONNEMENT</h5>
           <p class="fs-5 text-shadow-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, asperiores dicta eius fugit illo maxime minima minus molestiae perferendis, quae, quidem ratione tempore tenetur unde voluptatem. Accusantium at doloribus quis.</p>

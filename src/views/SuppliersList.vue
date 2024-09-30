@@ -39,13 +39,14 @@ export default {
 </script>
 
 <template>
-<div class="container">
+<div class="container mt-5 pt-2">
+  <h2 class="text-center mt-5 pt-5 fw-light">Nos fournisseurs</h2>
   <Features/>
 </div>
 
-  <div class="container mt-3">
+  <div class="container mt-5">
     <div class="row">
-      <h2 class="text-center">Nos fournisseurs</h2>
+
       <div
           class="col-md-4 col-sm-12 mb-4"
           v-for="supplier in suppliers"
@@ -63,5 +64,7 @@ export default {
 </template>
 
 <style scoped>
-
+h2{
+  font-size: 4rem;
+}
 </style>

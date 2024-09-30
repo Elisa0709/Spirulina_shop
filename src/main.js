@@ -9,21 +9,21 @@ import markerShadow from "leaflet/dist/images/marker-shadow.png";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importer le CSS de Bootstrap
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import {Icon} from "leaflet/src/layer/index.js"; // Importer les scripts JS de Bootstrap si nécessaire
+import App from './App.vue'
+import router from './router'
 
 
 delete Icon.Default.prototype._getIconUrl;
+
+
 Icon.Default.mergeOptions({
     iconRetinaUrl: markerIcon2x,
     iconUrl: markerIcon,
     shadowUrl: markerShadow
 });
 
-
-import App from './App.vue'
-import router from './router'
-
 const app = createApp(App)
-const pinia = createPinia();
+
 
 
 app.use(createPinia())
