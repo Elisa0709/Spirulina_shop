@@ -1,6 +1,6 @@
 <script>
 import Supplier from "@/components/Supplier.vue";
-import Features from "@/components/Features.vue"
+import Features from "@/components/CarouselSuppliers.vue"
 import {format, render, cancel, register} from 'timeago.js';
 import axios from 'axios';
 import Resselers from "@/components/Resselers.vue";
