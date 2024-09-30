@@ -10,15 +10,9 @@ export default {
 </script>
 
 <template>
-
-<!--  <div class="container mt-5 p-5">-->
-<!--    <div class="container mt-5">-->
-<!--      <h1 class="text-center mt-5">SPIRULINE</h1>-->
-<!--    </div>-->
-<!--  </div>-->
   <div class="image-container">
     <img src="/carrousselSupplier2.webp" alt="image de spiruline en poudre" >
-    <h1 class="text-overlay ">The Spiruline shop</h1>
+    <h1 class="text-overlay">The Spiruline shop</h1>
   </div>
 
 
@@ -52,8 +46,9 @@ img {
   transform: translate(-50%, -50%); /* Pour centrer précisément */
   color: white; /* Couleur du texte, ajustable */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Effet d'ombre pour meilleure lisibilité */
-  font-family: "Century Gothic", 'Lato', sans-serif;
+  font-family: "Fira Sans Condensed", 'Lato', sans-serif;
   text-align: center;
+  font-weight: 300;
 }
 
 </style>

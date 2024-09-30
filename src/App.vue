@@ -18,4 +18,5 @@ import NavComponent from '@/components/nav.vue'
 </template>
 
 <style scoped>
+
 </style>

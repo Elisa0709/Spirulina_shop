@@ -10,16 +10,16 @@ export default {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link to="/" class="et-hero-tab nav-link fs-5 text-white">Home</router-link>
+            <router-link to="/" class="font et-hero-tab nav-link fs-5 text-white">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/suppliers" class="et-hero-tab nav-link fs-5 text-white">Fournisseurs</router-link>
+            <router-link to="/suppliers" class="font et-hero-tab nav-link fs-5 text-white">Fournisseurs</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/map" class="et-hero-tab nav-link fs-5 text-white">Carte des fournisseurs</router-link>
+            <router-link to="/map" class="font et-hero-tab nav-link fs-5 text-white">Carte des fournisseurs</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/resselers" class="et-hero-tab nav-link fs-5 text-white">Revendeurs</router-link>
+            <router-link to="/resselers" class="font et-hero-tab nav-link fs-5 text-white">Revendeurs</router-link>
           </li>
         </ul>
       </div>
@@ -47,5 +47,9 @@ export default {
 img {
   width: 100%; /* Pour que l'image prenne toute la largeur */
   height: auto; /* Ajustement automatique de la hauteur */
+}
+.font{
+  font-family: "Fira Sans Condensed", 'Lato', sans-serif;
+  font-weight: 300;
 }
 </style>

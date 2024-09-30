@@ -68,8 +68,8 @@ export default {
         </div>
         <div class="col-md-8 h-100">
           <div class="card-body">
-            <h5 class="card-title">{{ name }}</h5>
-            <p>{{description}}</p>
+            <h5 class="card-title HFamily">{{ name }}</h5>
+            <p class="textFamily">{{description}}</p>
 <!--            <p class="card-text"><small class="text-body-secondary">Last updated : {{format(checkedAt)}}</small></p>-->
           </div>
         </div>
@@ -82,7 +82,12 @@ export default {
 .greenShadow {
   box-shadow: 0 4px 12px #C9E3CC;
 }
-.heightBox{
-  height: 15vh;
+.HFamily{
+  font-family: "Fira Sans Condensed", 'Lato', sans-serif;
+  font-weight: 400;
+}
+.textFamily{
+  font-family: "Fira Sans Condensed", 'Lato', sans-serif;
+  font-weight: 300;
 }
 </style>

@@ -12,7 +12,6 @@ import {Icon} from "leaflet/src/layer/index.js"; // Importer les scripts JS de B
 import App from './App.vue'
 import router from './router'
 
-
 delete Icon.Default.prototype._getIconUrl;
 
 
