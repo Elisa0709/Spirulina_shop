@@ -1,12 +1,13 @@
 <script>
 import Supplier from "@/components/Supplier.vue";
 import Features from "@/components/CarouselSuppliers.vue"
+import Filter from "@/components/Filter_component.vue";
 import {format, render, cancel, register} from 'timeago.js';
 import axios from 'axios';
 
 export default {
   name: "SuppliersList",
-  components: {Features, Supplier},
+  components: {Features, Supplier, Filter},
   data() {
     return {
       suppliers: [], // au début la liste des fournisseurs est vide
@@ -40,13 +41,13 @@ export default {
 
 <template>
 <div class="container mt-5 pt-2">
-  <h2 class="text-center mt-5 pt-5 fw-light">Nos fournisseurs</h2>
+  <h2 class="text-center pt-5 fw-light">Nos fournisseurs</h2>
   <Features/>
 </div>
 
-  <div class="container mt-5">
-    <div class="row">
 
+  <div class="container">
+    <div class="row">
       <div
           class="col-md-4 col-sm-12 mb-4"
           v-for="supplier in suppliers"

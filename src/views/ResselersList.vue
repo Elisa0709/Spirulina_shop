@@ -47,8 +47,8 @@ export default {
 
 
   <div class="container mt-3">
-    <div class="row">
-      <h2 class="text-center">Nos revendeurs</h2>
+    <div class="row mb-5">
+      <h2 class="text-center HFamily mt-5">Nos revendeurs</h2>
       <div
           class="col-md-4 col-sm-12 mb-4"
           v-for="resseller in ressellersData"
@@ -65,5 +65,9 @@ export default {
 </template>
 
 <style scoped>
+.HFamily{
+  font-family: "Fira Sans Condensed", 'Lato', sans-serif;
+  font-weight: 400;
+}
 
 </style>

@@ -15,6 +15,8 @@ import router from './router'
 delete Icon.Default.prototype._getIconUrl;
 
 
+
+
 Icon.Default.mergeOptions({
     iconRetinaUrl: markerIcon2x,
     iconUrl: markerIcon,
