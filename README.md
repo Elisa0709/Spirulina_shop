@@ -1,12 +1,12 @@
 # Spirulina suppliers project
 
-Projet réalisé en formation, dans le cadre de l'apprentissage du framework Vue-js.
-
+Project carried out as part of the Vue-js framework training program.
 
 ## Project Setup
 
 ```sh
 npm install
 ```
-
+##Link
+https://silver-torte-1ffe23.netlify.app/
 
